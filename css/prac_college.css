@@ -1,0 +1,273 @@
+.cont-box{
+    padding-top: 60px;
+}
+.cont-banner{
+    height: 360px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    width: 100%;
+    background: #cacfd3;
+    height: 300px;
+    margin-bottom: 100px;;
+}
+.cont-banner img{
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+}
+.cont-box .path-box{
+    padding-top: 0;
+}
+.wsz .box-title{
+    padding-top: 30px;
+}.wsz .box-title h2{
+    width: 60px;
+}
+.ke-lis{
+    width: 300px;
+    float: left;
+    height: 100%;
+}
+.ke-lis li{
+    cursor: pointer;
+    float: left;
+    font-size: 16px;
+    line-height: 26px;
+    box-sizing: border-box;
+    width: 94px;
+    text-align: center;
+    border-left: 1px solid #ccc;
+}
+.ke-lis li:first-child{
+    border: none;
+}
+.ke-lis li:hover{
+    color: #0099ff;
+}
+.foncor{
+  color: #0099ff;
+}
+.cont-lis-box {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.cont-lis-box li{
+    float: left;
+    width: 287px;
+    height: 196px;
+    background: #fff;
+    margin-right: 17px;
+    margin-bottom: 30px;    
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+}
+.cont-lis-box li a{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 25px 35px 0;
+}
+.cont-lis-box li:nth-of-type(4n){
+    margin-right:0 ;
+}
+.cont-lis-box li:hover{
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.4);
+}
+.cont-lis-box li a h3{
+    font-size: 14px;
+    font-weight: normal;
+    color: #000;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+.cont-lis-box li a p{
+    width: 100%;
+    font-size: 12px;
+    color: #999;
+    line-height: 26px;
+    overflow: hidden;
+}
+.cont-lis-box li a span{
+    font-size: 14px;
+    color: #f5a623;
+    position: absolute;
+    bottom: 20px;
+}
+
+
+
+
+
+
+
+/*college页面*/
+.coll-lis-box{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+.coll-lis-box>li{
+    margin-top: 30px;
+    width: 1200px;
+    height: 403px;        
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.2)
+}
+.coll-lis-box>li:hover{
+    box-shadow: 0 2px 14px rgba(0,0,0,0.4);
+}
+.coll-lis-box>li:first-child{
+    margin-top: 0;
+}
+.coll-lis-box>li>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 50px 25px 45px 30px;
+    box-sizing: border-box;
+    color: #333;
+}
+
+.coll-lis-box h2{
+    font-weight: normal;
+    font-size:30px;
+}
+.list-info{
+    width: 100%;
+    height: 284px;
+    padding-top:30px;
+    box-sizing: border-box;
+}
+.list-info .left{
+    width: 340px;
+    height: 100%;
+    float: left;
+}
+.list-info .left img{
+    width: 340px;
+    height: 190px;
+}
+.list-info .left p{
+    display: block;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #999;
+    overflow: hidden;
+}
+.list-info .right{
+    float: right;
+    width: 805px;
+    height: 100%;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.list-info .right .world{
+    font-size: 14px;
+    color: #333;
+}
+.list-info .right .icon{
+    height: 87px;
+    padding-top:35px ;
+    
+}
+.list-info .right .icon li{
+    width: 130px;
+    height: 100%;
+    float: left;
+}
+.right .icon .bg{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    background: url(../img/zkschool.png) no-repeat;
+}
+.right .icon p{
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+    padding-top: 15px;
+}
+
+.right .icon .sc .bg{
+    background-position: 0 0;
+}
+.right .icon .lb .bg{
+    background-position: -51px 0; 
+}
+
+.right .icon .zb .bg{
+    background-position: -103px 0;
+}
+.right .icon .jl .bg{
+    background: url(../img/zkschool2.png) no-repeat;
+    background-position: -154px 0;
+}
+.right .icon .jl .bg{
+    background: url(../img/zkschool2.png) no-repeat;
+    background-position: -103px 0;
+}.right .icon .dy .bg{
+    background: url(../img/zkschool2.png) no-repeat;
+    background-position: -258px 0;
+}.right .icon .zs .bg{
+    background: url(../img/zkschool_1.png) no-repeat;
+    background-position: -258px 0;
+}
+.right .icon .sz .bg{
+    background-position: -154px 0;
+}
+
+.right .icon .zj .bg{
+    background-position: -206px 0;
+}
+.money-box{
+    width: 100%;
+    padding-top: 35px;
+}
+.money-list{
+    width: 300px;
+    float: left;
+}
+.money-box .money{
+    float: left;
+    font-size: 30px;
+    color: #ff9900;
+}
+.money-box .sx_money{
+    float: left;
+    font-size: 14px;
+    text-align: center;
+    height: 30px;
+    width: 118px;
+    margin-top: 5px;
+    position: relative;
+    line-height: 30px;
+    border-radius: 3px;
+    background-color: #fd9827;
+    color: #fff;
+    margin-left: 10px;
+}
+.money-box .sx_money .icons{
+    border-style: solid;
+    border-width: 5px 5px 5px 0px;
+    border-color: transparent #fd9827 transparent transparent;
+    position: absolute;
+    top: 10px;
+    left: -5px;
+}
+.money-box .btn{
+    float: right;
+    width: 130px;
+    height: 40px;
+    background-color: #09f;
+    line-height: 40px;
+    border-radius: 20px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+.money-box .btn:hover{
+    background-color: #0089e5;
+}

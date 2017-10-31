@@ -1,0 +1,132 @@
+body{background: #fff;}
+.feed-cont-box{
+    padding-top: 30px;
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.feed-top{
+    margin-top: 60px;
+    font-size: 16px;
+    border-bottom: 1px solid #eeeeee;
+    background-color: #fafafa;
+    height: 49px;
+    padding-left: 25px;
+    line-height: 49px;
+}
+.feed-left{
+    width:820px;
+    height: 501px;
+    padding-left: 35px;
+    padding-top: 17px;
+    float: left;
+    box-sizing: border-box;
+}
+.feed-left input{
+    background-color: white;    
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+}
+.feed-left p{
+    font-size: 12px;
+    line-height: 35px;
+    width: 682px;
+}
+.feed-left p span{
+    color: #999;
+}
+.feed-left #title{
+    height: 33px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    width: 682px;
+}
+.feed-left #des{
+    padding: 5px 10px;
+    height: 88px;
+    font-size: 12px;
+    color: #666;
+    box-sizing: border-box;
+    width: 682px;
+}
+.feed-left .file{
+    position: relative;
+}
+.feed-left .file div{
+    font-size: 12px;
+    z-index: -1;
+    width: 27px;
+    height: 21px;
+    position: absolute;
+}
+.feed-left .file input{
+    margin: 20px 0 10px 0;
+    cursor: pointer;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 25px;
+    height: 19px;
+    opacity: 0;
+}
+.feed-left #about,.feed-left #phone{
+    height: 33px;
+    padding-left: 10px;
+    width: 660px;
+    color: #999999;
+}
+.feed-left #btn-sub{
+    display: block;
+    margin-top: 22px;
+    width: 98px;
+    height: 38px;
+    background: #028cf2;
+    color: #fff;
+    border: none;
+}
+.feed-right{
+    width: 265px;
+    height: 225px;
+    float: right;
+    padding-top: 17px;
+    padding-right: 35px;
+}
+.feed-right .titles{
+    width: 100%;
+    line-height: 21px;
+}
+.titles span{
+    font-size: 12px;
+    color: #333;
+}
+.titles .wh-icon{
+    display: inline-block;
+    background: url(../img/feed_back_icon.png) no-repeat;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    vertical-align: -1px;
+}
+.titles a{
+    display: inline-block;
+    float: right;
+    color: #333;
+    font-size: 12px;
+}
+.feed-lis{
+    padding-top: 20px;
+}
+.feed-lis li{
+    overflow: hidden;
+}
+.feed-lis li a{
+    font-size: 12px;
+    color: #666;
+    line-height: 30px;
+}
+.qqqun{
+    color: #999;
+    padding-top: 10px;
+    font-size: 12px;
+}

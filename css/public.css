@@ -1,0 +1,551 @@
+    *{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+body{
+    background: #f5f5f5;
+}
+.box{
+    width: 100%;
+	margin:0 auto;
+	position: relative;
+}
+#header{
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    padding: 15px 15px 0 15px;
+    box-sizing: border-box;
+}
+.header-left{
+    float: left;
+    width: 800px;
+    height: 100%;
+}
+.header-left .logo{
+    float: left;
+}
+.header-left .nav{
+    float: left;
+}
+.nav li{
+    position: relative;
+    float: left;
+    margin-left: 40px;
+    height: 40px;
+    line-height: 34px;
+}
+.nav-bg{
+    background: url(../img/nav_bg.png) no-repeat 0 35px;
+    background-size: 100% 4px;
+}
+.nav li a{
+    font-size: 16px;
+    color: #333;
+}
+.nav li span{
+    position: absolute;
+    width: 33px;
+    height: 19px;
+    top: -4px;
+    right: -27px;
+    background: url(../img/new.png) no-repeat;
+}
+.header-right{
+    float: right;
+    width: 513px;
+    height: 100%;
+    padding-left: 30px;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 30px;
+    color: #000;
+}
+.header-right li{
+    float: left;
+    margin-right: 15px;
+}
+.header-right li:last-child{
+    margin-right: 0;
+}
+.header-right .red-pack{
+    display: block;
+    width: 50px;
+    height: 32px;
+    background: url(../img/sign_icon.png) no-repeat;
+}
+.header-right .sign{
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    width: 88px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 28px;
+    background: #0099ff;
+}
+.header-right .sign:hover{
+    cursor: pointer;
+    background: #0089E5;
+}
+.header-right .search input{
+    border: solid 1px #b3b3b3;
+    padding: 3px 5px 3px 15px;
+    outline: none;
+    width: 214px;
+    height: 32px;
+    border-radius: 23px;
+    box-sizing: border-box;
+}
+.header-right .search input:focus{
+    border: solid 1px #0089E5;
+}
+.header-right .search{
+    position: relative;
+}
+.header-right .search input:hover{
+    border: 1px solid #0099ff;
+}
+.header-right .search span{
+    position: absolute;
+    top: 7px;
+    right: 15px;
+    width: 18px;
+    height: 18px;
+    background: url(../img/search.png) no-repeat;
+}
+.header-right #header-login,.header-right #header-regist{
+    cursor: pointer;
+}
+.header-right #header-login:hover,.header-right #header-regist:hover{
+    color: #0099ff;
+}
+.footer{
+    clear: both;
+}
+.footer-house-box{
+    width: 1200px;
+    height: 120px;
+    padding-left:50px;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+.footer-house{
+    background: url(../img/house.png) no-repeat;
+    width: 160px;
+    height: 120px;
+    float: left;
+}
+.house-cont{
+    width: 148px;
+    height: 30px;
+    float: left;
+    font-size: 14px;
+    border: 1px solid #eeeeee;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 3px 10px;
+    color: #09f;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.about-box{
+    width: 100%;
+    height: 323px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    background: #2a2a2a;
+}
+.about{
+    width: 1200px;
+    height: 214px;
+    margin: 0 auto;
+}
+.about-left li{
+    float: left;
+    width: 246px;
+    height: 132px;
+    border-left: 1px solid #4c4c4c;
+    padding-left: 15px;
+}
+.about-left p{
+    padding-bottom: 10px;
+}
+.about-left a{
+    color: #ccc;
+    font-size: 14px;
+}
+.about-left a:hover{
+    color: #0e8de4;
+}
+.about .qqqun{
+    width: 286px;
+}
+.about .phon{
+    font-size: 30px;
+    color: #fff;
+}
+.about .phon p{
+    padding: 0;
+}
+.about .phon a{
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 3px;
+    background-color: #4abdff;
+    text-align: center;
+    height: 26px;
+    line-height: 26px;
+    width: 80px;
+}
+.about .phon a:hover{
+    color: #fff;
+    background: #0099ff;
+}
+.about .time{
+    color: #ccc;
+    font-size: 12px;
+}
+.about-right{
+    width: 285px;
+    float: right;
+    color: #ccc;
+}
+.about-right .wx{
+    float: right;
+    background-color: #fff;
+    width: 108px;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+.wx span{
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+    background: url(../img/public_all_icon.png) no-repeat -87px 0;
+}
+.wb span{
+    background-position: -110px 0;
+}
+.logo-etu{
+    clear: both;
+    font-size: 14px;
+    color: #ccc;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.logo-etu img{
+    vertical-align: middle;
+}
+.copy{
+    height: 38px;
+    line-height: 38px;
+    font-size: 12px;
+    text-align: center;
+    color: #666;
+    border-top: 1px solid rgba(102,102,102,0.1);
+    margin-top: 40px;
+}
+
+#right-adv{
+    z-index: 99;
+    position: absolute;
+    width: 54px;
+    height: 182px;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.18);
+    padding: 0px 9px 15px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+#right-adv a{
+    display: block;
+    width: 36px;
+    height: 36px;
+    margin-top: 20px;
+    background: url(../img/index-right-icon.png) no-repeat;
+}
+#right-adv #info-box{
+    background-position: 5px 7px;
+}
+#right-adv #info-box:hover{
+    background-position: -42px 7px;
+}
+#right-adv #top{
+    background-position: 5px -88px;
+}
+#right-adv #top:hover{
+     background-position: -42px -88px;
+}
+
+.login-box-bg{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background: rgba(0,0,0,0.3);
+    display: none;
+}
+.login-box{
+    width: 650px;
+    height: 334px;
+    border-radius: 4px;
+    padding: 16px 24px 55px;
+    box-sizing: border-box;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -325px;
+    margin-top: -167px;
+}
+.login-box h3{
+    font-size: 18px;
+    color: #424242;
+    padding-bottom: 24px;
+    font-weight: normal;
+}
+.login-box .close-box{
+    display: block;
+    float: right;
+    width: 18px;
+    height: 18px;
+    background: url(../img/login-register.png) no-repeat -285px -7px;
+}
+.login-box .close-box:hover{
+    background-position: -285px -97px;
+}
+.login-box .login-left{
+    float: left;
+    width: 328px;
+    height: 100%;
+}
+.login-left input{
+    border: none;
+    outline: none;
+    width: 280px;
+    height: 40px;
+    border: 1px solid #d6d6d6;
+    padding:0 40px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.login-left input:focus{
+    border: 1px solid #0099ff;
+}
+.login-left span{
+    position: absolute;
+    top: 14px
+}
+.usernanme-box{
+    position: relative;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.usernanme-box .user-icon{
+    width: 12px;
+    height: 15px;
+    left: 20px;
+    background: url(../img/phone.png) no-repeat;
+}
+.usernanme-box .erro-icon{
+    width: 17px;
+    height: 18px;
+    display: block;
+    right: 60px;
+    top: 11px;
+    background: url(../img/4-1login-zhuce_10.png) no-repeat left center;
+    display: none;
+}
+.usernanme-box #user-clear{
+    background: url(../img/4-1login-zhuce_03.png) no-repeat left center;
+}
+.usernanme-box #reg-user-clear{
+    background: url(../img/4-1login-zhuce_03.png) no-repeat left center;
+}
+.pwd-box{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.pwd-box .pwd-icon{
+    width: 14px;
+    height: 16px;
+    left: 20px;
+    background: url(../img/lock.png) no-repeat;
+}
+.pwd-box .pwd-yan{
+    width: 24px;
+    height: 14px;
+    background: url(../img/login-register.png) no-repeat -346px -100px;
+    right: 60px;
+    cursor: pointer;
+}
+.check-box{
+    padding: 10px 0;
+    width: 280px;
+    font-size: 12px;
+    color: #a9a9a9;
+}
+.check-box .check-icon{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    vertical-align: -2px;
+    margin-right: 5px;
+    background: url(../img/login_icon_all.png) no-repeat -33px -16px;
+}
+.check-box .wjma{
+    display: block;
+    float: right;
+    color: #a9a9a9;
+}
+.check-box .wjma:hover{
+    color: #0099ff;
+}
+.login-left #login-btn{
+    background: #0099ff;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 18px;
+    text-align: center;
+}
+
+.login-right{
+    float: right;
+    width: 260px;
+    height: 276px;
+}
+
+.login-right{
+    font-size: 15px;
+}
+.login-right p span{
+    display: inline-block;
+    cursor: pointer;
+    color: #0099ff;
+}
+.login-right p span:hover{
+    color: #0089e5;
+}
+.hzgf{
+    width: 260px;
+    height: 22px;
+    background: url(../img/hz-gf.png) no-repeat 0;
+    margin: 38px 0;
+    color: #a9a9a9;
+    text-align: center;
+    font-size: 14px;
+}
+.denglu-qt li{
+    float: left;
+    padding: 0 20px;
+}
+.denglu-qt li a{
+    float: left;
+    display: block;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background: url(../img/login-register.png) no-repeat;
+}
+.denglu-qt .wx{
+   background-position:0 0;
+}
+.denglu-qt .wx:hover{
+   background-position:0 -69px;
+}
+.denglu-qt .qq{
+   background-position:-88px 0;
+}
+
+.denglu-qt .qq:hover{
+   background-position:-88px -69px;
+}
+.denglu-qt .wb{
+   background-position:-176px 0;
+}
+.denglu-qt .wb:hover{
+   background-position:-176px -69px;
+}
+
+
+#regist-box-bg{
+    display: none;
+}
+.yzm-box{
+    width: 282px;
+    height: 42px;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.yzm-box span{
+    display: block;
+    position: absolute;
+    top: 4px;
+    right: 100px;
+    width: 1px;
+    height: 32px;
+    background: #d6d6d6;z-index: 9;
+}
+.yzm-box #huoqu{
+    position: absolute;
+    width: 100px;
+    height: 38px;
+    color: #666;
+    right: 3px;
+    top: 1px;
+    padding: 0;
+    border: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    cursor: pointer;
+    background: #fff;
+    box-sizing: border-box;
+    border-left: none;
+}
+#regist-btn{
+    background: #0099ff;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 18px;
+    text-align: center;
+}
+input::-webkit-input-placeholder{
+    color: #ccc;
+}
+
+.login-tishi{
+    width: 280px;
+    height: 30px;
+    color: red;
+    font-size: 12px;
+    box-sizing: border-box;
+    line-height: 30px;
+    padding-left: 20px;
+    background: url(../img/4-1login-zhuce_13.png) no-repeat left center;
+    background-color: #f5faff;
+    display: none;
+}
+#regit-mm{
+    margin-top:10px ;
+    font-size: 12px;
+    background: none;
+    line-height: 20px;
+    color: #ccc;
+}
